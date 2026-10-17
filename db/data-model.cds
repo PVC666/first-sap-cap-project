@@ -24,6 +24,7 @@ entity Address: cuid {
     country : String;
     addressType: String;
     pincode : String;
-    street : String;
+    street  : String;
+    something : String;
     customer : Association to one Customers;
 }
