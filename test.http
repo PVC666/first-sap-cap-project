@@ -1,0 +1,14 @@
+### Read metadata of service
+GET http://localhost:4004/odata/v4/cutomer-details/$metadata
+### REad the data from Customer
+GET http://localhost:4004/odata/v4/customer-localhost:4004/odata/v4/cutomer-details/Customers
+
+###Create Customer record
+POST http://localhost:4004/odata/v4/customer-localhost:4004/odata/v4/cutomer-details/Customers
+Content-Type: application/json
+
+{
+    "name" : "Palash",
+    "emailId" : "palash@gmail.com",
+    "gender" : "Male"
+}
